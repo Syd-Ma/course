@@ -1,0 +1,83 @@
+.container, .h {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    background: #617eb0;
+    background: linear-gradient(#7775de, #617eb0, #6fa5bd);
+    height: 85vh;
+    width: 30vw;
+
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    margin: 0;
+    height: 100vh;
+}
+.but:hover {
+    box-shadow: 0 0 15px rgba(119, 117, 222, 0.6), 0 0 30px rgba(119, 117, 222, 0.4);
+}
+.h {
+    color: #fff;
+    font-size: min(10vh, 10vw);
+    display: flex;
+    justify-content: center;
+
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.enterblock1{
+    background: white;
+    height: 55vh;
+    width: 25vw;
+    gap: 5vh;
+}
+
+.container, .enterblock1 {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+ .data{
+     border: 0px;
+     font-size: min(3vh, 3vw);
+     background: linear-gradient(90deg, #504ec0, #617eb0, #99d6f1);
+     -webkit-background-clip: text;
+     border: none;
+     border-radius: 10px;
+     color: #0000;
+     height: 5vh;
+     padding: min(2vw, 2vh);
+     width: 20vw;
+ }
+ .but {
+     background: linear-gradient(270deg, #504ec0, #617eb0, #99d6f1);
+     -webkit-background-clip: text;
+     border-color: #98d4ef;
+     border-radius: 10px;
+     border-width: .2vw;
+     box-shadow: 0 0;
+     color: #0000;
+     cursor: pointer;
+     font-size: min(3vh, 3vw);
+     height: 5vh;
+     transition: box-shadow .3s;
+     width: 20vw;
+ }
+
